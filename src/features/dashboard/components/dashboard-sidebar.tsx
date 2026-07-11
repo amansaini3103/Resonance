@@ -96,7 +96,7 @@ function NavSection({ label, items, pathname }: NavSectionProps) {
 }
 
 export function DashboardSidebar() {
-  const pathname = usePathname(); 
+  const                                                                                                                   pathname = usePathname(); 
   const clerk = useClerk();
   const [voiceDialogOpen, setVoiceDialogOpen] = useState(false);
 
